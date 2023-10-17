@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* updated font-family for a more modern look */
+    background-color: #f4f4f4;
+    text-align: center;
+    color: #333; /* softer color for text */
+    line-height: 1.6; /* improved readability */
+}
+
+.weather-container {
+    max-width: 400px;
+    margin: 20px auto; /* added vertical spacing */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* softer shadow */
+    border-radius: 10px; /* rounded corners */
+    overflow: hidden; /* ensures content follows border radius */
+}
+
+h1 {
+    font-size: 2em; /* responsive font size */
+    color: #007BFF; /* color that matches the button */
+    margin-bottom: 20px; /* added spacing */
+}
+
+input[type="text"] {
+    width: calc(100% - 20px); /* adjusts width considering padding */
+    padding: 15px; /* larger touch area */
+    margin-bottom: 20px; /* added spacing */
+    border: 2px solid #ddd; /* border to highlight input */
+    border-radius: 5px; /* slightly rounded corners for input */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* rounded corners for button */
+    font-size: 1em; /* responsive font size */
+    transition: background-color 0.3s; /* transition for a smooth color change */
+}
+
+button:hover {
+    background-color: #0056b3; /* darker shade when hovered for a clickable look */
+}
+
+#weather-info {
+    margin-top: 20px;
+    padding-top: 20px; /* added spacing */
+    border-top: 1px solid #ddd; /* visual separation */
+}
+
